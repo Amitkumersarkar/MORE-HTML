@@ -1,0 +1,19 @@
+body {
+    background-color: beige;
+}
+
+nav>ul>li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav li > a {
+    text-decoration: none;
+}
+ nav li:hover {
+    background-color: aquamarine;
+ }
+ footer {
+    text-align: center;
+    margin-top: 30px;
+ }

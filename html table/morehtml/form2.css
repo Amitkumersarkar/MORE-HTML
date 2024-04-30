@@ -1,0 +1,25 @@
+body {
+    background-color: aquamarine;
+}
+
+nav>ul>li {
+    display: inline;
+    margin: 15px;
+}
+
+nav li>a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: rgb(252, 79, 238);
+}
+
+Label {
+    display: block;
+    margin: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+}

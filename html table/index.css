@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(240, 213, 245);
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin: 10px;
+    padding: 5px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: rgb(255, 0, 200);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+td,
+th {
+    border: 1px solid;
+    padding: 5px 10px;
+}

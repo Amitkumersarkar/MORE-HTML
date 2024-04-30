@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+}
+
+nav>ul>li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav li>a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: rgba(245, 25, 25, 0.788);
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* nasted menu style */
+nav li .dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgb(128, 255, 0);
+    padding: 5px;
+}
+
+nav li:hover .dropdown {
+    display: block;
+}
